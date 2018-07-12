@@ -4,7 +4,7 @@ import collection.{SetLike, GenTraversableOnce}
 import collection.generic.CanBuildFrom
 import scala.collection.GenSet
 
-class ComplementarySet[A](private val without: Set[A]) extends Set[A] with SetLike[A, ComplementarySet[A]] {
+class ComplementarySet[A](private val without: Set[A]) extends Set[A] {
   override val size = Int.MaxValue     // should be infinite
   
   def this() = this(Set())

@@ -11,10 +11,10 @@ homepage := Some(url("https://github.com/djspiewak/gll-combinators"))
 parallelExecution in Test := false
 
 libraryDependencies ++= Seq(
-  "org.scalacheck" %% "scalacheck"        % "1.13.4" % "test",
+  "org.scalacheck" %% "scalacheck"        % "1.14.0" % "test",
 
-  "org.specs2"     %% "specs2-core"       % "3.8.6"  % "test",
-  "org.specs2"     %% "specs2-scalacheck" % "3.8.6"  % "test")
+  "org.specs2"     %% "specs2-core"       % "4.3.2"  % "test",
+  "org.specs2"     %% "specs2-scalacheck" % "4.3.2"  % "test")
 
 scalacOptions += "-language:_"
 
